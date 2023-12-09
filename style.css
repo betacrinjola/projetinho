@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+}
+
+body {
+    min-height: 100vh;
+}
+
+.banner{
+    background-image: url(./imagens/banner-warface-905_edited_edited.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    padding: 10px 0px;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.escrito{
+    color: #fff;
+    margin-top: 90px;
+    margin-left: 50px;
+}
+
+.imagem{
+    padding: 50px 0px;
+    width: 200px;
+}
+
+span{
+    color: greenyellow;
+}
+a {
+    text-decoration: none;
+    background: green;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.preto{
+    background: #000;
+    background-size: cover;
+    height: 30px;
+}
+img{
+    border-radius: 10px;
+}
+
+.bloco{
+    margin-top: 10px;
+}
+
+.texto{
+    font-weight: bold;
+    font-size: 18px;
+    background: #e7e7e7;
+    width: 200px;
+    border-radius: 6px;
+    text-align: center;
+}
+
+.preço{
+    color: darkred;
+}
+
+.foto{
+    width: 200px;
+    margin: 5px 0px;
+}
+.foto:hover{
+    box-shadow: 10px 5px 5px black;
+    width: 205px;
+}
+.grid_2{
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+.fundo{
+    background: #e7e7e7;
+    background-size: cover;
+}
